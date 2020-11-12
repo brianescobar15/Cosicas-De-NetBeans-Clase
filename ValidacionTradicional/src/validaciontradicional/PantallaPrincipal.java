@@ -33,8 +33,7 @@ public class PantallaPrincipal extends javax.swing.JFrame {
         }
         
         try {
-            
-            Integer,int parseInt = parseInt(jTextFieldEdad.getText();
+            int parseInt = parseInt(jTextFieldEdad.getText());
         } catch (NumberFormatException n) {
             
             JOptionPane.showMessageDialog(this, "Edad no valido", "Error", JOptionPane.INFORMATION_MESSAGE);
